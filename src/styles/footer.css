@@ -1,0 +1,49 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 8rem;
+}
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    margin-top: 7rem;
+    border-top: 1px solid;
+}
+.footer-icon  a{
+    color: white;
+    margin: 50px;
+    font-size: 35px
+}
+.footer-icon a:hover{
+    color: rgb(35, 35, 139);
+    transition: 0.5s;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    border-top: 1px solid;
+    margin-top: 0;
+    padding-top: 4rem;
+}
+
+
+@media screen and (max-width: 900px) {
+    .footer-icon  a{
+        color: white;
+        margin: 30px;
+        font-size: 25px
+    }
+}
+@media screen and (max-width: 450px) {
+    .footer-icon  a{
+        color: white;
+        margin: 20px;
+        font-size: 20px
+    }
+    .footer p{
+        font-size: 15px
+    }
+}
