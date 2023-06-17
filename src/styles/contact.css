@@ -73,6 +73,15 @@ button{
     transition: 0.5s;
 }
 
+.emai-success {
+    color: green;
+    font-weight: bold;
+    padding: 12px 13px;
+    border: 2px solid white;
+    margin: 16px 0px;
+    width: 78%;
+    background-color: #1E242D;
+}
 
 @media screen and (max-width: 900px) {
     .contact-container .container{

@@ -4,7 +4,7 @@
 }
 body{
   /* background-image: url('./img/1091500.jpg'); */
-  background-image: url('./img/bg4.jpg');
+  background-image: url('./img/bg.avif');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -42,4 +42,8 @@ color: white;
 
 .small-text{
   font-size: 18px;
+}
+
+.font-family-roboto{
+  font-family: 'Roboto Mono', monospace;
 }

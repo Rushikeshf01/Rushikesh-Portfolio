@@ -1,8 +1,3 @@
-.aboutImgContainer{
-    width: 100%;
-    height: 442px;
-}
-
 .aboutImg{
     height: 442px;
     width: 100%;
@@ -13,9 +8,10 @@
     flex-direction: column;
     justify-content: center;
     height: 442px;
-    background-color: #1e242d;
+    background-color: #FFFFFF;
     text-align: left;
-    padding:2rem 7rem 2rem 0;
+    padding: 2rem 10rem 2rem 4rem;
+    color: black;
 }
 
 .resume-btn{

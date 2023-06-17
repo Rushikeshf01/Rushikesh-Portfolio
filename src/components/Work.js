@@ -7,10 +7,11 @@ function Work() {
     <div>
 
     <div className='container flex-column bg-main'id='work' >
-      <p className="big-text color-white" >
-          Work
+      <p className="big-text color-white font-family-roboto" >
+          Projects
       </p>
       <div className="projects" >
+        <Project />
         <Project />
       </div>
     </div>

@@ -1,21 +1,19 @@
 import '../styles/about.css'
-// import aboutImg from '../img/img2.jpg'
-import aboutImg from '../img/samurai.webp'
-// import aboutImg from '../img/rushikesh.jpg'
+import aboutImg from '../img/about_vector.jpg'
 function About() {
     return (
-
         <div className="container color-white" id='about'>
-            <div className='aboutImgContainer'>
-                <img className='aboutImg' src={aboutImg} alt='about-pic'/>
-            </div>
-            <div className='aboutText'>
+            <img className='aboutImg' src={aboutImg} alt='about-img'/>
+            <div className='aboutText small-text font-family-roboto'>
                 <p className='big-text'>
                     ABOUT
                 </p>
+                <p>
+
                 I'm Rushikesh, a passionate Web Developer bringing you programming and design from the future. I am experienced in developing web applications including full front end design.
+                </p>
                 <p className='resume-btn'>
-                <i class="fa-solid fa-download"></i>
+                <i className="fa-solid fa-download"></i>
                     <span>Downlaod Resume</span> 
                 </p>
             </div>

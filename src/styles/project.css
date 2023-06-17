@@ -1,53 +1,60 @@
 .project{
     display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     background-color: white;
-    padding: 8px;
-    width: 450px;
-    height: 34vh;
-    border: 1px solid black;
-    border-radius: 10px;
+    height: 580px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 360px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
 }
 
 .projectImg {
-    height: 100%;
-    width: 60%;
-    border-radius: 10px;
+    height: 35%;
+    width: 100%;
+    /* border-radius: 10px; */
     
-}
-.projectImgContainer {
-    width: 50%;
-    height: 442px;
 }
 
 .projectText{
     display: flex;
-    width: 50%;
+    width: 100%;
     flex-direction: column;
     text-align: center;
-    padding: 3px 9px;
-    /* justify-content: center; */
-    /* background-color: #1e242d; */
-    /* text-align: left; */
-    /* padding: 2rem 15rem 0 0; */
+    padding: 3px 25px;
 }
 
-.projectText p{
-    font-size: 20px;
+.projectName{
+    font-size:23px;
     font-weight: bold;
-    /* text-decoration: underline; */
 }
-/* .tag{
-    border: 2px solid red;
-    width: 50%;
+.project-description {
+text-align: left;
+}
+hr{
+    width: 50px;
+  height: 3px;
+  border: 0;
+  background: #d0bb57;
+}
+.stack{
     text-align: center;
-    border-radius: 20px;
-} */
-.tech{
-    text-align: left;
+    font-weight: bold;
 }
 .tag{
-    /* pointer-events: none; */
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px 15px;
+}
+.actions{
+    margin: 10px 0;
+}
+.btn{
     background-color: #EFF4FF;
     border: 1px solid;
     width: 46%;
@@ -60,7 +67,7 @@
     border-radius: 100px;
 }
 
-.tag:hover{
+.btn:hover{
     background-color: #c9d9fa; 
 }
 
