@@ -1,20 +1,20 @@
 import React from 'react'
 import '../styles/project.css'
-import projectImg from '../img/projectImg2.png'
-function Project() {
+
+function Project(props) {
   return (
       <div className='project color-black'>
 
-        <img className="projectImg" src={projectImg} alt='project-pic' />
+        <img className="projectImg" src={props.projectImg} alt='img' />
 
         <div className='projectText '>
           <p className='projectName'>
-            CyberSec Club WebSite
+            {props.projectName}
           </p>
           <hr />
 
           <p className='project-description font-family-roboto'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum cum eveniet quibusdam illo facilis et sed, perspiciatis fugit consectetur corrupti. Dolores, dolorum!
+            {props.projectDesc}
           </p>
           <div className='stack'>
 

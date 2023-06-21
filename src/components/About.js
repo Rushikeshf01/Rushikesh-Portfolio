@@ -1,5 +1,5 @@
 import '../styles/about.css'
-import aboutImg from '../img/about_vector.jpg'
+import aboutImg from '../img/developer-dark.svg'
 function About() {
     return (
         <div className="container color-white" id='about'>

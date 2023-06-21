@@ -51,7 +51,7 @@ function Contact() {
             To Connect with me
           </p>
           <p className='small-text'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, fugiat. Lorem ipsum dolor sit amet.
+          Always available for freelancing if the right project comes along, Feel free to contact me.
           </p>
 
           <a href="/" className='small-text'>
@@ -62,13 +62,10 @@ function Contact() {
         <div className='contact-text'>
           <form ref={form} id="contact-form">
 
-            {/* <label htmlFor="name">NAME </label> */}
             <input value={formData.name} onChange={handleOnChange} type="text" name="name" id="name" placeholder="Enter your name" required />
 
-            {/* <label htmlFor="email">EMAIL </label> */}
             <input value={formData.email} onChange={handleOnChange} type="email" name="email" id="email" placeholder="Enter your email" required />
 
-            {/* <label htmlFor="message">MESSAGE </label> */}
             <textarea value={formData.message} onChange={handleOnChange} name="message" id="message" cols="60" rows="10" placeholder="Enter your message" required ></textarea>
 
             {isEmailSended &&

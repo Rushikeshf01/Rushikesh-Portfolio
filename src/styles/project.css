@@ -14,8 +14,6 @@
 .projectImg {
     height: 35%;
     width: 100%;
-    /* border-radius: 10px; */
-    
 }
 
 .projectText{
@@ -74,7 +72,7 @@ hr{
 
 @media screen and (max-width: 440px) {
     .project {
-        height: 56vh;
+        height: 100%;
         width: 80vw;
         flex-direction: column;
     }

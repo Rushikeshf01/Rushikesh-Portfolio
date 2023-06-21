@@ -1,5 +1,4 @@
 .contact-container{
-    display: flex;
     padding: 7rem 0;
     background-color: #1e242d;
 }
@@ -8,14 +7,17 @@
     width: 50%;
     margin: 0 70px;
 }
+
 .contact-text a{
     color: white;
     font-weight:600 ;
-text-decoration: none;
+    text-decoration: none;
 }
+
 .contact-text a i{
 padding-right: 10px;
 }
+
 .contact-text a:hover{
     color: rgb(35, 35, 139);
 }
