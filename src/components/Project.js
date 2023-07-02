@@ -32,8 +32,8 @@ function Project(props) {
 
             <div className='actions'>
 
-              <button className='btn'>Code</button>
-              <button className='btn'>View</button>
+              <a href='https://github.com/Rushikeshf01/ecommerce-frontend' className='action'>Code</a>
+              <a href='/' className='action'>View</a>
             </div>
           </div>
 

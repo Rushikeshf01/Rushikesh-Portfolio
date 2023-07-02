@@ -52,7 +52,7 @@ hr{
 .actions{
     margin: 10px 0;
 }
-.btn{
+.action{
     background-color: #EFF4FF;
     border: 1px solid;
     width: 46%;
@@ -65,7 +65,7 @@ hr{
     border-radius: 100px;
 }
 
-.btn:hover{
+.action:hover{
     background-color: #c9d9fa; 
 }
 

@@ -9,13 +9,26 @@ function Intro() {
                 <p className='dev-name'>
                     Rushikesh Falak
                 </p>
-                <p className='dev-role list'>
+                {/* <p className='dev-role list'>
                         <ul className="t">
                             <li>ReactJs Developer</li>
                             <li>Python Developer</li>
                             <li>Full Stack Developer</li>
                         </ul>
-                </p>
+                </p> */}
+                <div class="dev-roles">
+                    <div class="roles">
+                        <div>ReactJs Developer</div>
+                        <div>Python Developer</div>
+                        <div>Full Stack Developer</div>
+                    </div>
+
+                    <div class="roles">
+                        <div>ReactJs Developer</div>
+                        <div>Python Developer</div>
+                        <div>Full Stack Developer</div>
+                    </div>
+                </div>
                 <p className='dev-desc'>
                     I design and develop web apps for customers of all sizes, specializing in creating them with modern frameworks and libraries.
                 </p>
