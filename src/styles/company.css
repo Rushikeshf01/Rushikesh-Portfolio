@@ -1,0 +1,86 @@
+.company{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* background-color: white; */
+    height: 580px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    max-width: 360px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.companyLogo {
+    height: 35%;
+    width: 100%;
+}
+
+.projectText{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 3px 25px;
+}
+
+.companyName{
+    font-size:23px;
+    font-weight: bold;
+}
+.project-description {
+text-align: left;
+}
+hr{
+    width: 50px;
+  height: 3px;
+  border: 0;
+  background: #d0bb57;
+}
+.stack{
+    text-align: center;
+    font-weight: bold;
+}
+.tag{
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px 15px;
+}
+.actions{
+    margin: 10px 0;
+}
+.action{
+    background-color: #EFF4FF;
+    border: 1px solid;
+    width: 46%;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px;
+    border-radius: 100px;
+}
+
+.action:hover{
+    background-color: #c9d9fa; 
+}
+
+
+@media screen and (max-width: 440px) {
+    .project {
+        height: 100%;
+        width: 80vw;
+        flex-direction: column;
+    }
+    .projectImg{
+        width: 100%;
+        height: 60%;
+    }
+    .projectText{
+        width: 100%;
+    }
+}

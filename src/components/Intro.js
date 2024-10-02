@@ -1,5 +1,5 @@
 import '../styles/intro.css'
-import rushikesh from '../img/myPhoto-modified.png'
+import rushikesh from '../img/rushikesh-updated-circle.jpeg'
 function Intro() {
     return (
         <div className="intro bg-grey">
