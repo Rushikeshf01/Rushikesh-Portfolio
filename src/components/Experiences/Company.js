@@ -14,7 +14,7 @@ function Company(props) {
           <hr />
 
           <p className='project-description font-family-roboto'>
-            {props.projectDesc}
+            {props.companyDesc}
           </p>
           <div className='stack'>
 

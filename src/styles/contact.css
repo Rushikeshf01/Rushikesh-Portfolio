@@ -1,96 +1,112 @@
-.contact-container{
-    padding: 7rem 0;
+/* .contact-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 800px;
     background-color: #1e242d;
+    text-align: left;
+    padding: 11rem 6rem;
+} */
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* height: 55vw; */
+  width: 100%;
+  background-color: #1e242d;
+  text-align: left;
+  padding: 11rem 6rem;
+}
+.contact-text {
+  width: 50%;
+  margin: 0 70px;
 }
 
-.contact-text{
-    width: 50%;
-    margin: 0 70px;
+.contact-text a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
 }
 
-.contact-text a{
-    color: white;
-    font-weight:600 ;
-    text-decoration: none;
+.contact-text a i {
+  padding-right: 10px;
 }
 
-.contact-text a i{
-padding-right: 10px;
+.contact-text a:hover {
+  color: rgb(35, 35, 139);
 }
 
-.contact-text a:hover{
-    color: rgb(35, 35, 139);
+.contact-text p {
+  margin-top: 0;
 }
 
-.contact-text p{
-    margin-top: 0;
+.font-roboto {
+  font-family: "Roboto Mono", monospace;
+  font-size: 27px;
+  color: rgb(105, 25, 255);
 }
 
-.font-roboto{
-    font-family: 'Roboto Mono', monospace;
-    font-size: 27px;
-    color: rgb(105,25,255);
-}
-
-#contact-form label{
-    display: block;
+#contact-form label {
+  display: block;
 }
 
 #contact-form input,
-textarea
- {
-    font-weight:normal;
-    font-size: 18px;
-    color: white;
-    width: 100%;
-    height: 44px;
-    margin: 12px 0px;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 12px 5px;
-    background-color: rgb(31, 39 , 49);
-    resize: vertical;
+textarea {
+  font-weight: normal;
+  font-size: 18px;
+  color: white;
+  width: 100%;
+  height: 44px;
+  margin: 12px 0px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 12px 5px;
+  background-color: rgb(31, 39, 49);
+  resize: vertical;
 }
-input:focus{
-    font-weight:normal;
-    font-size: 18px;
-    color: white;
+input:focus {
+  font-weight: normal;
+  font-size: 18px;
+  color: white;
 }
 
 textarea {
-    height: 100%;
+  height: 100%;
 }
 
-button{
-    background-color: white;
-    padding: 10px;
-    font-size: 15px;
-    font-weight: 500;
+button {
+  background-color: white;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .submit-btn:hover {
-    background-color: rgb(35, 35, 139);
-    border: 2px solid white;
-    color: white;
-    transition: 0.5s;
+  background-color: rgb(35, 35, 139);
+  border: 2px solid white;
+  color: white;
+  transition: 0.5s;
 }
 
 .emai-success {
-    color: green;
-    font-weight: bold;
-    padding: 12px 13px;
-    border: 2px solid white;
-    margin: 16px 0px;
-    width: 78%;
-    background-color: #1E242D;
+  color: green;
+  font-weight: bold;
+  padding: 12px 13px;
+  border: 2px solid white;
+  margin: 16px 0px;
+  width: 78%;
+  background-color: #1e242d;
 }
 
 @media screen and (max-width: 900px) {
-    .contact-container .container{
-        flex-direction: column;
-        }
-    .contact-text{
-        width: 100%;
-        padding: 12px 12px;
-    }
+  .section {
+    flex-direction: column;
+    width: 100%;
+    padding: 3rem 0;
+  }
+  .contact-text {
+    width: 80%;
+    padding: 12px 12px;
+  }
 }

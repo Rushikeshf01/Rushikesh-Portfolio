@@ -14,30 +14,40 @@ import eSparkLogo from '../src/img/eSpark-logo-white.svg'
 
 const projectData = [
   {
+    projectName: "Twitter Clone",
+    projectDesc: "Developed a Twitter clone where user can tweet, retweet, follow and see their feed and get notifications",
+    projectImg: projectImg2,
+    techStack:["Python", "Django", "ReactJS"],
+    sourceCode: "https://github.com/Rushikeshf01/twitter-django",
+  },
+  {
+    projectName: "Safety Hazard Detection System",
+    projectDesc: "Ensured worker safety by identifying unauthorized presence and verifying safety gear compliance",
+    projectImg: projectImg1,
+    techStack:["Python", "Flask", "YOLO"],
+    sourceCode: "https://github.com/Tarpit59/safety-measurements"
+  },
+  {
+    projectName: "Sentiment Analysis of Product Review",
+    projectDesc: "Enabled businesses to better understand and improve their product strategies based on customer feedback",
+    projectImg: projectImg1,
+    techStack:["Python", "Django", "NLP"],
+    sourceCode: "https://github.com/PatelPreyansh30/be-sentimental-analysis"
+  },
+  {
     projectName: "E Commerce Web App",
     projectDesc: "This is an e-commerce app where you can add products to the cart, place orders, and use user authentication.",
-    projectImg: projectImg2
+    projectImg: projectImg2,
+    techStack:["Python", "Django", "ReactJS"],
+    sourceCode: "https://github.com/Rushikeshf01/ecommerce-frontend"
   },
   {
     projectName: "CyberSec Club",
     projectDesc: "This web app was created for the Silver Oak cybersec club organized by IEEE silver oak group. This web app was created in ReactJS",
-    projectImg: projectImg1
+    projectImg: projectImg1,
+    techStack:["VueJS", "HTML", "CSS"],
+    sourceCode: "https://github.com/Rushikeshf01"
   },
-  {
-    projectName: "E Commerce Web App",
-    projectDesc: "This is an e-commerce app where you can add products to the cart, place orders, and use user authentication.",
-    projectImg: projectImg2
-  },
-  {
-    projectName: "CyberSec Club",
-    projectDesc: "This web app was created for the Silver Oak cybersec club organized by IEEE silver oak group. This web app was created in ReactJS",
-    projectImg: projectImg1
-  },
-  {
-    projectName: "CyberSec Club",
-    projectDesc: "This web app was created for the Silver Oak cybersec club organized by IEEE silver oak group. This web app was created in ReactJS",
-    projectImg: projectImg1
-  }
 ];
 const expData = [
   {
@@ -63,8 +73,8 @@ function App() {
       <Navbar />
       <Intro />
       <About />
-      <Work projects={projectData} />
       <Experience exps={expData} />
+      <Work projects={projectData} />
       <Contact />
       <Footer />
     </div>

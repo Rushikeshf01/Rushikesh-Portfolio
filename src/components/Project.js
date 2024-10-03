@@ -1,45 +1,46 @@
 import React from 'react'
 import '../styles/project.css'
 
-function Project(props) {
+function Project({projectName, projectImg, projectDesc,techStack, sourceCode}) {
   return (
-      <div className='project color-black'>
+    <div className='project color-black'>
 
-        <img className="projectImg" src={props.projectImg} alt='img' />
+      <img className="projectImg" src={projectImg} alt='img' />
 
-        <div className='projectText '>
-          <p className='projectName'>
-            {props.projectName}
-          </p>
-          <hr />
+      <div className='projectText '>
+        <p className='projectName'>
+          {projectName}
+        </p>
+        <hr />
 
-          <p className='project-description font-family-roboto'>
-            {props.projectDesc}
-          </p>
-          <div className='stack'>
-
+        <p className='project-description font-family-roboto'>
+          {projectDesc}
+        </p>
+        <div className='stack'>
+          <div className='tech'>
             <p>Stack</p>
 
-              <span className="tag">
-                ReactJS
-              </span>
-              <span className="tag">
-                HTML
-              </span>
-              <span className="tag">
-                CSS
-              </span>
+            <div>
+            {techStack.map((tech,index) => (
 
-            <div className='actions'>
+                <span className="tag" key={index}>
+                  {tech}
+                </span>
+            ))}
+              </div>
 
-              <a href='https://github.com/Rushikeshf01/ecommerce-frontend' className='action'>Code</a>
-              <a href='/' className='action'>View</a>
-            </div>
           </div>
 
+          <div className='actions'>
+
+            <a href={sourceCode} className='action' target="_blank"><i className="fa-brands fa-github"></i></a>
+            {/* <a href='/' className='action'>View</a> */}
+          </div>
         </div>
+
       </div>
-    )
+    </div>
+  )
 }
 
 export default Project

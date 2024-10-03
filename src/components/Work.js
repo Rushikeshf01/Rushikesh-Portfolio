@@ -9,7 +9,7 @@ function Work({projects}) {
     <div>
 
     <div className='container flex-column bg-main'id='work' >
-      <p className="big-text color-white font-family-roboto" >
+      <p className="big-text color-wheat font-family-roboto" >
           Projects
       </p>
       <div className="projects" >
@@ -19,6 +19,8 @@ function Work({projects}) {
             projectName={project.projectName}
             projectDesc={project.projectDesc}
             projectImg={project.projectImg}
+            techStack={project.techStack}
+            sourceCode={project.sourceCode}
           />
           ))}
           </div>

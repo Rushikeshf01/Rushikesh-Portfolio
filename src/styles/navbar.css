@@ -15,10 +15,12 @@
 }
 .nav-menu li {
     list-style: none;
+    margin: 34px;
+    font-size: 20px;
+    list-style: none;
 }
 .navbar a {
     text-decoration: none;
-    color: white;
     padding: 13px 15px;
 }
 .navbar a:hover {
