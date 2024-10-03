@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/company.css'
+// import '../../styles/company.css'
 
 function Company(props) {
   return (

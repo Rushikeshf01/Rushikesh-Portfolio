@@ -73,7 +73,7 @@ function App() {
       <Navbar />
       <Intro />
       <About />
-      <Experience exps={expData} />
+      {/* <Experience exps={expData} /> */}
       <Work projects={projectData} />
       <Contact />
       <Footer />
