@@ -40,14 +40,14 @@ function Contact() {
   }
 
   return (
-    <div className='contact-container color-white' id='contact'>
-      <div className='container flex-row m-auto'>
+    <div className='container color-white' id='contact'>
+      <div className='section m-auto'>
 
         <div className='contact-text'>
           <p className='samll-text font-roboto'>
             Contact
           </p>
-          <p className="big-text">
+          <p className="big-text color-wheat">
             To Connect with me
           </p>
           <p className='small-text'>

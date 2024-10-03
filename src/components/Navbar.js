@@ -20,7 +20,7 @@ function Navbar() {
     return (
         <nav className='navbar'>
             <div className="name">
-                <a href='/'>Rushikesh</a>
+                <a href='/' className='color-wheat'>Rushikesh</a>
             </div>
             <button className="hamburger" onClick={handleMenu}>
                 <i className="fa-solid fa-bars"></i>
@@ -30,14 +30,14 @@ function Navbar() {
             }>
                 <ul>
                     {navigation.map((nav)=> ( <li key={nav.text}>
-                        <a href={nav.link}>{nav.text}</a>
+                        <a href={nav.link} className='color-wheat'>{nav.text}</a>
                     </li> ))}
                     <li>
 
-                        <a href='https://github.com/Rushikeshf01'><i className="fa-brands fa-github"></i></a>
+                        <a href='https://github.com/Rushikeshf01' className='color-wheat'><i className="fa-brands fa-github"></i></a>
                     </li>
                     <li>
-                        <a href='https://www.linkedin.com/in/rushikesh-falak-14604a203/'><i className="fa-brands fa-linkedin"></i></a>
+                        <a href='https://www.linkedin.com/in/rushikesh-falak-14604a203/' className='color-wheat'><i className="fa-brands fa-linkedin"></i></a>
                     </li>
                 </ul>
             </div>

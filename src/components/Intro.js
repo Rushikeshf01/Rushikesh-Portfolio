@@ -1,12 +1,12 @@
 import '../styles/intro.css'
-import rushikesh from '../img/myPhoto-modified.png'
+import rushikesh from '../img/rushikesh-updated-circle.jpeg'
 function Intro() {
     return (
         <div className="intro bg-grey">
 
             <div className="intro-text font-family-roboto">
                 Hi,I'm
-                <p className='dev-name'>
+                <p className='dev-name color-wheat'>
                     Rushikesh Falak
                 </p>
                 {/* <p className='dev-role list'>
@@ -16,14 +16,14 @@ function Intro() {
                             <li>Full Stack Developer</li>
                         </ul>
                 </p> */}
-                <div class="dev-roles">
-                    <div class="roles">
+                <div className="dev-roles">
+                    <div className="roles">
                         <div>ReactJs Developer</div>
                         <div>Python Developer</div>
                         <div>Full Stack Developer</div>
                     </div>
 
-                    <div class="roles">
+                    <div className="roles">
                         <div>ReactJs Developer</div>
                         <div>Python Developer</div>
                         <div>Full Stack Developer</div>
