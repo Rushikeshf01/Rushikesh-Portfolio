@@ -9,29 +9,30 @@ import Footer from "./components/Footer";
 
 import projectImg1 from '../src/img/projectImg2.png'
 import projectImg2 from '../src/img/ecommerce1.png'
+import twitterimg from '../src/img/twitter_clone.png'
 
 import eSparkLogo from '../src/img/eSpark-logo-white.svg'
 
 const projectData = [
   {
     projectName: "Twitter Clone",
-    projectDesc: "Developed a Twitter clone where user can tweet, retweet, follow and see their feed and get notifications",
-    projectImg: projectImg2,
+    projectDesc: "Developed a Twitter clone where user can tweet, retweet, follow and see their feed and get notifications.",
+    projectImg: twitterimg,
     techStack:["Python", "Django", "ReactJS"],
     sourceCode: "https://github.com/Rushikeshf01/twitter-django",
   },
   {
     projectName: "Safety Hazard Detection System",
-    projectDesc: "Ensured worker safety by identifying unauthorized presence and verifying safety gear compliance",
+    projectDesc: "Ensured worker safety by identifying unauthorized presence and verifying safety gear compliance using computer vision.",
     projectImg: projectImg1,
     techStack:["Python", "Flask", "YOLO"],
     sourceCode: "https://github.com/Tarpit59/safety-measurements"
   },
   {
     projectName: "Sentiment Analysis of Product Review",
-    projectDesc: "Enabled businesses to better understand and improve their product strategies based on customer feedback",
+    projectDesc: "Enabled businesses to better understand and improve their product strategies based on customer feedback by leveraging NLP.",
     projectImg: projectImg1,
-    techStack:["Python", "Django", "NLP"],
+    techStack:["Python", "Django", "BERT"],
     sourceCode: "https://github.com/PatelPreyansh30/be-sentimental-analysis"
   },
   {
@@ -51,20 +52,29 @@ const projectData = [
 ];
 const expData = [
   {
+    designation: "Software Developer",
     companyName: "eSparkBiz Technologies Pvt Ltd.",
-    companyDesc: "Strengthened MYSQL and HTML, CSS, JS. Mastered ReactJS and TypeScript for front-end development.Acquired foundational knowledge in Python and learned to use frameworks such as Flask, Django, and Django REST Framework (DRF), along with other engineering softwares.Developed a full-stack task management system using Node.js and Express.js. Built a Twitter clone in TypeScript with a ReactJS and Django and developed real time features such as user notifications using websocket django channels, user feed, tweet,comments, replies.",
-    companyLogo: eSparkLogo
+    companyDesc: `Strengthened MYSQL and HTML, CSS, JS. Learned ReactJS and TypeScript for front-end development.
+    Acquired foundational knowledge in Python and learned to use frameworks such as Flask, Django, and Django REST Framework(DRF), along with other engineering softwares.
+    Developed a full-stack task management system using Node.js and Express.js.
+    Built a Twitter clone in TypeScript with a ReactJS and Django and developed real time features such as user notifications using websocket django channels, user feed, tweet,comments, replies.`,
+    companyLogo: eSparkLogo,
+    periode: "Jan 2024 - Aug 2024"
   },
   {
-    companyName: "eSparkBiz Technologies Pvt Ltd.",
-    companyDesc: "Strengthened MYSQL and HTML, CSS, JS. Mastered ReactJS and TypeScript for front-end development.Acquired foundational knowledge in Python and learned to use frameworks such as Flask, Django, and Django REST Framework (DRF), along with other engineering softwares.Developed a full-stack task management system using Node.js and Express.js. Built a Twitter clone in TypeScript with a ReactJS and Django and developed real time features such as user notifications using websocket django channels, user feed, tweet,comments, replies.",
-    companyLogo: eSparkLogo
+    designation: "B.Tech in Computer Engineering with AI/ML",
+    companyName: "Silver Oak Univeristy",
+    companyDesc: '',
+    companyLogo: eSparkLogo,
+    periode: "Oct 2024 - May 2024"
   },
-  {
-    companyName: "eSparkBiz Technologies Pvt Ltd.",
-    companyDesc: "Strengthened MYSQL and HTML, CSS, JS. Mastered ReactJS and TypeScript for front-end development.Acquired foundational knowledge in Python and learned to use frameworks such as Flask, Django, and Django REST Framework (DRF), along with other engineering softwares.Developed a full-stack task management system using Node.js and Express.js. Built a Twitter clone in TypeScript with a ReactJS and Django and developed real time features such as user notifications using websocket django channels, user feed, tweet,comments, replies.",
-    companyLogo: eSparkLogo
-  },
+  // {
+  //   designation: null,
+  //   companyName: "eSparkBiz Technologies Pvt Ltd3.",
+  //   companyDesc: "Strengthened MYSQL and HTML, CSS, JS. Mastered ReactJS and TypeScript for front-end development.Acquired foundational knowledge in Python and learned to use frameworks such as Flask, Django, and Django REST Framework (DRF), along with other engineering softwares.Developed a full-stack task management system using Node.js and Express.js. Built a Twitter clone in TypeScript with a ReactJS and Django and developed real time features such as user notifications using websocket django channels, user feed, tweet,comments, replies.",
+  //   companyLogo: eSparkLogo,
+  //   periode: "Jan 2024 - Aug 2024"
+  // },
 ];
 
 function App() {
@@ -73,7 +83,7 @@ function App() {
       <Navbar />
       <Intro />
       <About />
-      {/* <Experience exps={expData} /> */}
+      <Experience exps={expData} />
       <Work projects={projectData} />
       <Contact />
       <Footer />
