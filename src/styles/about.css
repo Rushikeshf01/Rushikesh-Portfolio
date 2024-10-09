@@ -38,7 +38,7 @@ display: flex;
     padding: 11rem 6rem;
 }
 
-.resume-btn{
+.resume-btn button{
     border: 2px solid;
     padding: 12px;
     width: fit-content;
