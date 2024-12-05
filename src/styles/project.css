@@ -18,11 +18,11 @@
     transform: scale(1.02);
   }
   
-.projectImg {
-    height: 35%;
+/*.projectImg {
+     height: 35%;
     width: 92%;
-    margin: 14px;
-}
+    margin: 14px; 
+} */
 
 .projectText{
     display: flex;
