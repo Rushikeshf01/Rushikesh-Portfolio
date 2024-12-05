@@ -5,7 +5,7 @@ function Project({projectName, projectImg, projectDesc,techStack, sourceCode}) {
   return (
     <div className='project color-black'>
 
-      <img className="projectImg" src={projectImg} alt='img' height="200" width="330"/>
+      <img className="projectImg" src={projectImg} alt='img'/>
 
       <div className='projectText '>
         <p className='projectName'>
