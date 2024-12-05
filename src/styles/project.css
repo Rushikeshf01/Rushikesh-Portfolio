@@ -18,11 +18,11 @@
     transform: scale(1.02);
   }
   
-/*.projectImg {
-     height: 35%;
-    width: 92%;
-    margin: 14px; 
-} */
+.projectImg {
+    height: 12rem;
+    width: 100%;
+    /* margin: 14px;  */
+}
 
 .projectText{
     display: flex;
@@ -129,11 +129,11 @@ hr{
     .actions a {
         font-size: 18px;
     }
-    /* .projectImg{
-        width: 92%;
-        height: 60%;
-        margin: 14px
-    } */
+    .projectImg{
+        width: 100%;
+        height: 12rem;
+        /* margin: 14px */
+    }
     .projectText{
         width: 100%;
     }
