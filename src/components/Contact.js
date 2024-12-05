@@ -15,6 +15,7 @@ function Contact() {
   const [isEmailSended, setIsEmailSended] = useState(false);
 
   const handleOnChange = (e) => {
+    setIsEmailSended(false)
     const { name, value } = e.target;
     //...formData -> spread operator is used here because we just want to set new object property in an existing state object (not want to set brand new state object everytime)  
 
@@ -27,7 +28,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_p91jt85", "template_8aj7qk9", form.current, "J0RRP66xzm43wmAuk")
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current,  process.env.REACT_APP_PUBLIC_API_KEY)
       .then((response) => {
         setShowMessage("Your message was sent succesfully, We will contact you soon");
         setIsEmailSended(true);
