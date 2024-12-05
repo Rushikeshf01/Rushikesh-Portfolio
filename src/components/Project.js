@@ -5,7 +5,7 @@ function Project({projectName, projectImg, projectDesc,techStack, sourceCode}) {
   return (
     <div className='project color-black'>
 
-      <img className="projectImg" src={projectImg} alt='img' />
+      <img className="projectImg" src={projectImg} alt='img' height="200" width="330"/>
 
       <div className='projectText '>
         <p className='projectName'>
@@ -33,7 +33,7 @@ function Project({projectName, projectImg, projectDesc,techStack, sourceCode}) {
 
           <div className='actions'>
 
-            <a href={sourceCode} className='action' target="_blank"><i className="fa-brands fa-github"></i></a>
+            <a href={sourceCode} className='action' target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i></a>
             {/* <a href='/' className='action'>View</a> */}
           </div>
         </div>

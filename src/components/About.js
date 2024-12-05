@@ -1,14 +1,9 @@
 import '../styles/about.css'
 import aboutImg from '../img/developer-dark.svg'
 function About() {
-    const driveFileLink = "https://drive.google.com/file/d/1op6Bvmmnua11Clj9uUzlc8gQOj4TNg8n/view?usp=drive_link";
     const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = driveFileLink;
-        link.download = "rushikesh_falak_resume"; // Optional: Provide a name for the downloaded file
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        const pdfPath = "/files/Rushikesh_Falak_Resume.pdf";
+        window.open(pdfPath, "_blank");
     }
     return (
         <div className="container color-white" id='about'>
