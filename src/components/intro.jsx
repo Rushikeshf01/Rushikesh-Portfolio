@@ -9,13 +9,6 @@ function Intro() {
                 <p className='dev-name color-wheat'>
                     Rushikesh Falak
                 </p>
-                {/* <p className='dev-role list'>
-                        <ul className="t">
-                            <li>ReactJs Developer</li>
-                            <li>Python Developer</li>
-                            <li>Full Stack Developer</li>
-                        </ul>
-                </p> */}
                 <div className="dev-roles">
                     <div className="roles">
                         <div>ReactJs Developer</div>
